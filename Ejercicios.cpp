@@ -19,7 +19,7 @@ int main(void) {
 
   cout << "Digite c" << endl;
   cin >> c;
-  
+
   subrad = pow(b, 2) - 4 * a * c;
 
   if (subrad < 0) {
@@ -35,6 +35,8 @@ int main(void) {
     } else {
       x1 = (-b + sqrt(subrad)) / (2 * a);
       x2 = (-b - sqrt(subrad)) / (2 * a);
+
+      cout << "La raices son x1:" << x1 << " y x2: " << x2 << endl; 
     }
   }
 
